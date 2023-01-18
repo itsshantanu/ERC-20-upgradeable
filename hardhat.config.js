@@ -17,6 +17,12 @@ module.exports = {
       accounts: [PRIVATE_KEY],
     }
   },
+  settings: {
+      optimizer: {
+        enabled: false,
+        runs: 200,
+     },
+   },
   etherscan: {
     apiKey: ETHERSCAN_API_KEY,
   },
